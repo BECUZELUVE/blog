@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   // ⚠️重要：仓库是 你的名字.github.io 就写 '/'；普通仓库填 '/仓库名/'
-  base: '/',
+  base: '/blog/',
   title: "AI应用开发笔记",
   description: "记录大模型、RAG、Python、LLM应用开发学习与踩坑",
   lang: 'zh-CN',
