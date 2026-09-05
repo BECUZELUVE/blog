@@ -1,0 +1,16 @@
+/* card自定义容器样式 */
+.vp-container-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 16px 0;
+  background: var(--vp-c-bg-soft);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.vp-container-card > strong:first-child {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
